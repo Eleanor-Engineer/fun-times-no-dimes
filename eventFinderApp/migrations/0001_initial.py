@@ -26,6 +26,10 @@ class Migration(migrations.Migration):
                 ('location', models.CharField(max_length=200)),
                 ('start_time', models.DateTimeField(verbose_name='start time and date')),
                 ('end_time', models.DateTimeField(verbose_name='end time and date')),
+                #07/09/2019 Eleanor.  Added line.
+                ('venue', models.CharField(max_length=200)),
+                ##07/09/2019 Eleanor.  This line may not work. Below is the link that I didn't get to work.
+                #('link', models.link(verbose_name='link to event page'))
             ],
         ),
     ]

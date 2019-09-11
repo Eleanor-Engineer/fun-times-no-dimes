@@ -77,9 +77,9 @@ WSGI_APPLICATION = 'eventFinderProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'database_main', # you will need to create this db
-        'USER': 'postgres', # enter your user name here
-        'PASSWORD': 'postgres',
+        'NAME': 'database_main', #07/09/2019 Eleanor  # you will need to create this db
+        'USER': 'postgres', #07/09/2019 Eleanor # enter your user name here
+        'PASSWORD': 'postgres',#07/09/2019 Eleanor
         'HOST': 'localhost',
         'PORT': '5432',
     }
